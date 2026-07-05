@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, footer {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+header {
+    margin-bottom: 10px;
+}
+.main-text {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+.bottomargin {
+    margin-bottom: 10px;
+}
+.header-nav {
+    display: flex;
+}
+.header-nav a {
+    color: grey;
+    text-decoration: none;
+    flex: auto;
+}
+.hero {
+    background: linear-gradient(135deg, #0044ff, #ff22ff, #ffabab);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 25px;
+    border-radius: 5px;
+}
+.goto {
+    width: 75%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    background: #ff6b6b;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+}
+.goto a {
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+.full-h3 {
+    width: 100%;
+}
+.proj-nav {
+    display: flex;
+    text-align: center;
+}
+.proj-nav a {
+    flex: auto;
+    color: blue;
+    text-decoration: none;
+    font-weight: 600;
+    margin: auto;
+    width: 50%;
+}
+.proj {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.proj h2 {
+    color: blue;
+    width: 100%;
+    margin: 25px;
+}
+.proj article {
+    min-width: 320px;
+    max-width: 350px;
+    flex: auto;
+    border-radius: 10px;
+    outline: 2px solid grey;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.facts {
+    text-align: center;
+    align-content: center;
+    margin: 20px;
+}
+.row td {
+    outline: 2px solid grey;
+    padding: 5px;
+}
+.h h5 {
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.not-c {
+    text-align: left;
+    margin-left: 50px;
+}
+footer {
+    margin-top: 10px;
+}
