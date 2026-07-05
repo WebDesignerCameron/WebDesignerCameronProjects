@@ -60,6 +60,7 @@ header {
 .proj-nav {
     display: flex;
     text-align: center;
+    width: 100%;
 }
 .proj-nav a {
     flex: auto;
